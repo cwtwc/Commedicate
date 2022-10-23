@@ -1,3 +1,7 @@
+# Commedicate - Medical terms simplified.
+
+![Commedicate](https://i.imgur.com/OEhYCs2.png)
+
 # Instructions
 
 1. Enter the following in command prompt for the [Create React App](https://github.com/facebook/create-react-app) (React Chrome extension template) and required libraries:

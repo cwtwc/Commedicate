@@ -27,7 +27,7 @@ const Store = createStore({
 		const response = { ...resp }
         const id = Object.keys(response.query.pages)[0]
         const title = response.query.pages[id].title
-        let desc = response.query.pages[id].extract
+        let desc = response.query.pages[id].extract.split('.')[0]
 
         setState({
           id,

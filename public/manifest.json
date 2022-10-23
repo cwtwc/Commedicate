@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "short_name": "Commedicate",
+  "name": "Commedicate",
+  "description": "Medical terms simplified.",
+  "browser_action": {
+    "default_title": "Commedicate",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.bundle.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.bundle.js"]
+    }
+  ],
+  "icons": {
+    "16": "img/commedicate_logo.png",
+    "48": "img/commedicate_logo.png",
+    "128": "img/commedicate_logo.png"
+  },
+  "options_page": "options.html",
+  "permissions": ["storage"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

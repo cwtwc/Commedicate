@@ -1,0 +1,25 @@
+.App{
+  font-family: 'Verdana', sans-serif;
+  width:350px;
+  padding-bottom:10px; 
+}
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+*,*::after,*::before{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar,::-webkit-scrollbar {
+  display: none;
+}
+a{
+  display:block;
+  text-decoration: none;
+  text-align:center;
+}
+button{
+  outline:none;
+}
